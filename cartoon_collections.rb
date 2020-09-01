@@ -14,4 +14,4 @@ end
 
 
 
-list_dwarves(dwarves_array = ["Gimli", "Thorin", "Balin", "Gloin"])
+puts list_dwarves(dwarves_array = ["Gimli", "Thorin", "Balin", "Gloin"])
