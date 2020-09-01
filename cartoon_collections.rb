@@ -6,12 +6,13 @@ end
 
 def list_dwarves(array)
   num = 1
-  array.count do |string|
-    string.class == String
+  array.each do |string|
+    puts "#{num}. #{string}"
+    num +=1
   end
   
 end
 
 
 
-puts list_dwarves(dwarves_array = ["Gimli", "Thorin", "Balin", "Gloin"])
+list_dwarves(dwarves_array = ["Gimli", "Thorin", "Balin", "Gloin"])
