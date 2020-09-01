@@ -6,9 +6,9 @@ end
 
 def list_dwarves(array)
   num = 1
-  array.each_with_index do |string|
-    puts "#{num}. #{string}"
-    num +=1
+  array.each_with_index do |string, index|
+    puts "#{index}. #{string}"
+
   end
   
 end
