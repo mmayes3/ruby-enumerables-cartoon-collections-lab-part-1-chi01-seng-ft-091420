@@ -7,7 +7,7 @@ end
 def list_dwarves(array)
   num = 1
   array.each do |string|
-    puts string.class == String
+    p string.class == String
   end
   
 end
