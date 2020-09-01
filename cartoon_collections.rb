@@ -6,7 +6,7 @@ end
 
 def list_dwarves(array)
   num = 1
-  array.each do |string|
+  array.count do |string|
     string.class == String
   end
   
